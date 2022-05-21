@@ -12,14 +12,6 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'consistent-return': 0,
     quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
-    'prettier/prettier': [
-      'error',
-      {
-        trailingComma: 'es5',
-        singleQuote: true,
-        printWidth: 80,
-      },
-    ],
     'vue/no-unused-components': [
       'error',
       {
